@@ -22,7 +22,7 @@ public class Fabula extends Escrito {
 
     @Override
     public String toString() {
-        return null;
+        return String.format("%s\n%s\n%s\n%d\n%s", getOrigen(), getTitulo(), getAutor(), getPaginas(), ensenanza);
     }
 
     public String getEnsenanza() {
